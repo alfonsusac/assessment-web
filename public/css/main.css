@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    padding: 2em;
+}
+
+.wrapper{
+    max-width: 600px;
+    margin: 10vw auto;
+    padding: 2em;
+    background: hsl(0, 0%, 100%);
+}
+
+.group{
+    padding-top: 2em;
+}
+
+button, .button{
+    display: block;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    margin-bottom: 8px;
+
+    background-color: hsl(0,0%,99%);
+    border-radius: 10px;
+
+    text-align: center;
+    width: fit-content;
+
+}
+
+.primary-bg{
+    color: white;
+    background-color: #7349b6;
+}
+
+.primary-fg{
+    color: #7349b6;
+    background-color: white;
+}
